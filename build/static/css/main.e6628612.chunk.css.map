@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,KACE,kCACF,CAEA,KACE,yEAEF","file":"main.e6628612.chunk.css","sourcesContent":["body {\n  font-family: \"Kiwi Maru\", sans-serif;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',\n    monospace;\n}\n"]}
