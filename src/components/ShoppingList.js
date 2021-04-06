@@ -30,7 +30,10 @@ const ShoppingList = (props) => {
 				{shopping.map(product => {
 					return (
 						<li className="list-group-item" key={product}>
-							<Product product={product} />
+							<Product
+								product={product}
+								shopping={shopping}
+								removeFromShoppingList={removeFromShoppingList} />
 						</li>
 					)
 				})}

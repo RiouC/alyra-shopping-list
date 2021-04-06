@@ -1,12 +1,11 @@
-import ShoppingApp from "./ShoppingApp"
 
 const AddProductForm = (props) => {
-  const { addToShoppingList } = props
+  const { shopping, addToShoppingList } = props
   const handleFormSubmit = (event) => {
     event.preventDefault()
     console.log(event.target.elements.product.value)
     const newProduct = event.target.elements.product.value
-    if (!ShoppingApp.includes(newProduct)) {
+    if (!shopping.includes(newProduct)) {
       addToShoppingList(newProduct)
     } else {
       alert("Produit déjà sur la liste")
